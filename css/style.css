@@ -1,5 +1,7 @@
 body {
     overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 300 !important;
 }
 
 .navbar .nav-link {
@@ -64,4 +66,17 @@ body {
 
 #video-play a {
     color: #fff;
+}
+
+#page-header {
+    height: 200px;
+    background: url('../img/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+.about-img {
+    margin-top: -50px;
 }
